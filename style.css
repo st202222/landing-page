@@ -1,9 +1,3 @@
-*{
-    border-color: royalblue;
-    border-style: dotted;
-}
-
-
 body {
     display: flex;
     flex-direction: column;
@@ -183,6 +177,7 @@ img {
     margin-top: 50px;
     margin-bottom: 50px;
     border-radius: 10px;
+    padding-left: 10px;
     align-items: center;
     width: 700px;
     gap: 50px;
@@ -206,4 +201,16 @@ h3 {
     border-radius: 15px;
     border-color: #F9FAF8;
     border-style: groove;
+}
+
+/*Here starts style for footer*/
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    margin-bottom: 0px;
+}
+
+.footer-text {
+    color: #E5E7EB;
 }
