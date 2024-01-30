@@ -151,6 +151,7 @@ img {
     flex-direction: column;
     background-color: #E5E7EB;
     align-items: center;
+    padding-bottom: 100px;
 }
 .quote-text {
     display: flex;
@@ -167,4 +168,42 @@ img {
     margin-left: 500px;
     font-weight: bold;
   
+}
+
+/*Here starts style for call to action*/
+
+.promote-action {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.promote-box {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    align-items: center;
+    width: 700px;
+    gap: 50px;
+    background-color: #3882F6;
+}
+
+.promote-text, .promote-button {
+    color: #F9FAF8;
+}
+
+h3 {
+    font-weight: bold;
+    display: flex;
+    margin-bottom: 0px;
+}
+ .promote-instructions {
+     display: flex;
+     margin-top: 0px;
+ }
+.promote-button {
+    border-radius: 15px;
+    border-color: #F9FAF8;
+    border-style: groove;
 }
