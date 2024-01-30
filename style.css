@@ -1,3 +1,8 @@
+*{
+    border-color: royalblue;
+    border-style: dotted;
+}
+
 
 body {
     display: flex;
@@ -90,10 +95,76 @@ button {
     background-color: #9b9ca0;
 }
 
+ /*Here starts style for content*/
  
+ 
+ /*Random information section*/
 
 .content {
     display: flex;
     flex-direction: column;
+
 }
 
+.random-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+     
+}
+h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+.random-info {
+    display: flex;
+    gap: 50px;
+    
+}
+.pic-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+img {
+    width: 200px;
+    height: 200px;
+    border-color: #3882F6;
+    border-style: groove;
+    border-radius: 15px;
+}
+.random-text {
+    display: flex;
+    flex-wrap: wrap;
+    width: 150px;
+    text-align: center;
+}
+
+/*Section with quote*/
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: center;
+}
+.quote-text {
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 10px;
+}
+.quote-source {
+    display: flex;
+    margin-top: 0;
+    margin-left: 500px;
+    font-weight: bold;
+  
+}
